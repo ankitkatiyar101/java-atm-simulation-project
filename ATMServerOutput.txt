@@ -1,0 +1,36 @@
+Security manager installed.
+Java RMI registry located.
+Created new ATMFactoryImpl.
+ATMFactory bound in registry.
+Java RMI registry not found.
+listener_1 bound in registry.
+TransactionNotification: INQUIRE, Account: 1
+
+TransactionNotification: INQUIRE, Account: 2
+
+TransactionNotification: INQUIRE, Account: 3
+
+TransactionNotification: INQUIRE, Account: 1
+
+TransactionNotification: WITHDRAW, Account: 2, Amount: 500.0
+
+TransactionNotification: WITHDRAW, Account: 1, Amount: 50.0
+
+TransactionNotification: DEPOSIT, Account: 1, Amount: 500.0
+
+TransactionNotification: DEPOSIT, Account: 2, Amount: 100.0
+
+TransactionNotification: WITHDRAW, Account: 1, Amount: 100.0
+
+TransactionNotification: WITHDRAW, Account: 3, Amount: 300.0
+
+TransactionNotification: WITHDRAW, Account: 1, Amount: 200.0
+
+TransactionNotification: TRANSFER, Account 1: 1Account 2: 2, Amount: 100.0
+
+TransactionNotification: INQUIRE, Account: 1
+
+TransactionNotification: INQUIRE, Account: 2
+
+TransactionNotification: INQUIRE, Account: 3
+

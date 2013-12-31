@@ -1,0 +1,34 @@
+Security manager installed.
+Java RMI registry located.
+Client registered with ATM as ATMListener.
+
+Balance(0000001): 0.0
+Balance(0000002): 100.0
+Balance(0000003): 500.0
+
+Test one failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie55.project.exceptions.ATMException: Balance couldn't be retrieved.
+
+Test two failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie55.project.exceptions.ATMException: Withdrawal couldn't be made.
+
+Test three failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie55.project.exceptions.ATMInsufficientFundsException: Insufficient funds to make the transaction.
+
+Test four performed successfully.
+
+Test five performed successfully.
+
+Test six performed successfully.
+
+Test seven performed successfully.
+
+Test eight failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie55.project.exceptions.ATMException: Withdrawal couldn't be made.
+
+Test nine performed successfully.
+
+Balance(0000001): 300.0
+Balance(0000002): 300.0
+Balance(0000003): 200.0
+
