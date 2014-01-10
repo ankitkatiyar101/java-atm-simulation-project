@@ -1,5 +1,5 @@
 /**
- * $Id: ATMServer.java, v 1.0 26/12/13 17:48 oscarfabra Exp $
+ * $Id: BankServer.java, v 1.0 26/12/13 17:48 oscarfabra Exp $
  * {@code BankServer} The BankServer class starts up and creates a Bank
  * instance and a Security instance and registers them with the RMI Registry.
  *
@@ -17,6 +17,9 @@ import java.rmi.registry.LocateRegistry;
 /**
  * The BankServer class starts up and creates a Bank instance and a Security
  * instance and registers each of them with the RMI Registry.
+ *
+ * @see cscie55.project.Bank
+ * @see cscie55.project.Security
  */
 public class BankServer
 {
@@ -32,8 +35,7 @@ public class BankServer
     public static void main(String [] args)
     {
         // Assigns the policy file to the VM
-        System.setProperty("java.security.policy",
-            "file:cscie55/project/bank.policy");
+        System.setProperty("java.security.policy","file:bank.policy");
 
         // Create and install a security manager
         if(System.getSecurityManager()==null)
@@ -84,5 +86,4 @@ public class BankServer
             ex.printStackTrace();
         }
     }
-
 }

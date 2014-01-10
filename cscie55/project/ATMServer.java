@@ -34,8 +34,7 @@ public class ATMServer
         Registry reg = null;
 
         // Assigns the policy file to the VM
-        System.setProperty("java.security.policy",
-            "file:cscie55/project/server.policy");
+        System.setProperty("java.security.policy","file:server.policy");
 
         // Create and install a security manager
         if(System.getSecurityManager()==null)

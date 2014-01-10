@@ -362,14 +362,18 @@ public class Client implements ATMListener
     // MAIN
     //-------------------------------------------------------------------------
 
+    /**
+     * Main method of the Client class.
+     *
+     * @param args Empty array.
+     */
     public static void main(String [] args)
     {
         Registry reg = null;
         ATM atm = null;
 
         // Assigns the policy file to the VM
-        System.setProperty("java.security.policy",
-            "file:cscie55/project/client.policy");
+        System.setProperty("java.security.policy","file:client.policy");
 
         // Create and install a security manager
         if(System.getSecurityManager()==null)
@@ -417,5 +421,4 @@ public class Client implements ATMListener
             re.printStackTrace();
         }
     }
-
 }

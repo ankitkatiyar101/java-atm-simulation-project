@@ -13,7 +13,8 @@ ASSUMPTIONS:
 
 HOW TO EXECUTE MAIN PROCESSES:
 
-Be sure to execute each of the processes on a different command prompt.
-# java -classpath project.jar cscie55.project.BankServer
-# java -classpath project.jar cscie55.project.ATMServer
-# java -classpath project.jar cscie55.project.Client
+Be sure to compile all sources, then execute each of the following processes on
+a different command prompt.
+# java -classpath cscie55.project.BankServer
+# java -classpath cscie55.project.ATMServer
+# java -classpath cscie55.project.Client
