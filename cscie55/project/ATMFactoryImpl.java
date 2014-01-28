@@ -20,7 +20,7 @@ import java.rmi.server.UnicastRemoteObject;
 public class ATMFactoryImpl extends UnicastRemoteObject implements ATMFactory
 {
     //-------------------------------------------------------------------------
-    // ATTRIBUTE
+    // ATTRIBUTES
     //-------------------------------------------------------------------------
 
     /**

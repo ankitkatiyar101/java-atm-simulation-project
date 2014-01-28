@@ -33,7 +33,7 @@ public class BankImpl extends UnicastRemoteObject implements Bank
     private List<Account> accounts = null;
 
     //-------------------------------------------------------------------------
-    // CONSTRUCTOR
+    // METHODS
     //-------------------------------------------------------------------------
 
     /**
@@ -112,7 +112,7 @@ public class BankImpl extends UnicastRemoteObject implements Bank
             tempAccount = this.accounts.get(i);
             if(tempAccount.corresponds(accountInfo))
             {
-                // Updates the account on the appropriate position.
+                // Updates the account on the ppropriate position.
                 this.accounts.set(i,account);
                 found = true;
             }

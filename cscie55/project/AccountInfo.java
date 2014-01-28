@@ -55,7 +55,6 @@ public final class AccountInfo implements Serializable
 
     /**
      * Returns the accountNumber attribute.
-     *
      * @return Account's Number.
      */
     public int getAccountNumber()
@@ -65,7 +64,6 @@ public final class AccountInfo implements Serializable
 
     /**
      * Returns the pin attribute.
-     *
      * @return Personal Identification Number of the account.
      */
     public int getPin()
@@ -73,11 +71,6 @@ public final class AccountInfo implements Serializable
         return this.pin;
     }
 
-    /**
-     * Returns a String summarizing the AccountInfo's values.
-     *
-     * @return String with a summary of the AccountInfo's values.
-     */
     public String toString()
     {
         return "AccountInfo object: " + this.accountNumber + ", " + this.pin;

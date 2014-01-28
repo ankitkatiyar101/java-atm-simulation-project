@@ -1,7 +1,7 @@
 TITLE: Solution for Final Project
 COURSE: CSCIE E-55, "Java for Distributed Computing", Fall 2013
 AUTHOR: Oscar Fabra, fabrasuarez@g.harvard.edu
-DATE: December 30, 2013
+LAST UPDATE: January 27, 2014
 
 ASSUMPTIONS:
 
@@ -13,8 +13,8 @@ ASSUMPTIONS:
 
 HOW TO EXECUTE MAIN PROCESSES:
 
-Be sure to compile all sources, then execute each of the following processes on
-a different command prompt.
+Be sure to compile all sources and then execute each of the processes on a 
+different command prompt.
 # java -classpath cscie55.project.BankServer
 # java -classpath cscie55.project.ATMServer
 # java -classpath cscie55.project.Client
